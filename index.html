@@ -234,5 +234,153 @@
       </tr>
     </tbody>
   </table>
+  
+  <br>
+  <br>
+  <br>
+  
+  <table>
+    <caption>Atrybuty</caption>
+    <thead>
+      <tr>
+        <th>Atrybut</th>
+        <th>Opis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>action</td>
+        <td>do tagu form, ścieżka pliku (zwykle PHP) do którego mają być presłane dane z tego formularza po jego przesłaniu</td>
+      </tr>
+      <tr>
+        <td>alt</td>
+        <td>do tagu img, tekst który się wyświetli jeżeli obraz się nie załaduję</td>
+      </tr>
+      <tr>
+        <td>autocomplate</td>
+        <td>do tagu input typu text, wartości on i off, czy przeglądarka może automatycznie uzupełnić dane pole tekstowe</td>
+      </tr>
+      <tr>
+        <td>autofocus</td>
+        <td>do tagu input typu text, atrybut pusty, jeżeli jest to po włączeniu strony automatycznie jest włączone wpisywanie tekstu do tego pola</td>
+      </tr>
+      <tr>
+        <td>charset</td>
+        <td>do tagu meta, ustawia kodowanie tekstu (np. UTF-8) dla tego dokumentu</td>
+      </tr>
+      <tr>
+        <td>checked</td>
+        <td>do tagu input typu radio lub checkbox, atrybut pusty, jeżeli jest to pole wyboru jest automatycznie zaznaczone po załadowaniu strony</td>
+      </tr>
+      <tr>
+        <td>class</td>
+        <td>dla wszystkich tagów, klasa obiektu, w css-ie lub w js z pomocą querySelectorAll można się odwołać przy użyciu .nazwa-klasy</td>
+      </tr>
+      <tr>
+        <td>colspan</td>
+        <td>do tagu td, rozciągnięcie komórki w prawo</td>
+      </tr>
+      <tr>
+        <td>cols</td>
+        <td>do obiektu textarea, szerokość obiektu textarea w znakach</td>
+      </tr>
+      <tr>
+        <td>content</td>
+        <td>do tagu meta po atrybucie name, wartość danego metadanego</td>
+      </tr>
+      <tr>
+        <td>data-blablabla</td>
+        <td>dla wszystkich tagów, zamiast 'blablabla' może być cokolwiek innego, atrybut tylko przechowujący tekst i nic nie robiący</td>
+      </tr>
+      <tr>
+        <td>for</td>
+        <td>do tagu label, dla tagu z jakim id ma być ta etykieta (trzeba wpisać np. grupa-wiek-2)</td>
+      </tr>
+      <tr>
+        <td>height</td>
+        <td>wysokość elementu (ustawia cechę CSS o takiej samej nazwie)</td>
+      </tr>
+      <tr>
+        <td>href</td>
+        <td>do tagów które się odnoszą do jakiejś strony np. 'a' lub 'link', adres URL lub ścieżka pliku</td>
+      </tr>
+      <tr>
+        <td>id</td>
+        <td>dla wszystkich tagów, identyfikator obiektu, w css-ie lub w js z pomocą querySelector można się odwołać przy użyciu #nazwa-identyfikatora</td>
+      </tr>
+      <tr>
+        <td>lang</td>
+        <td>dla wszystkich tagów, język tekstu w obiekcie, zwykle używany w tagu html</td>
+      </tr>
+      <tr>
+        <td>maxlength</td>
+        <td>do tagu input typu text, ile maksymalnie znaķów można wpisać w polu tekstowym</td>
+      </tr>
+      <tr>
+        <td>method</td>
+        <td>do tagu form, ustawia metodę przesyłania danych z formularza (np. POST lub GET)</td>
+      </tr>
+      <tr>
+        <td>name w tagu input</td>
+        <td>w inpucie typu text oznacza nazwę wartości po przesłaniu formularza, w inpucie typu radio lub checkbox oznacza nazwę pytania i wtedy stosuje się ją do kilku inputów</td>
+      </tr>
+      <tr>
+        <td>name w tagu meta</td>
+        <td>nazwa metadanego którego wartość jest potem określona w tym samym elemencie</td>
+      </tr>
+      <tr>
+        <td>placeholder</td>
+        <td>do tagu input typu np. text, tekst który pokazuje się w polu tekstowym na szaro zanim się coś wpisze</td>
+      </tr>
+      <tr>
+        <td>rel</td>
+        <td>do tagu link, relacja między plikami html i ty z którym się łączy (np. stylesheet)</td>
+      </tr>
+      <tr>
+        <td>required</td>
+        <td>do tagu input typu np. text lub date, pole wymagane</td>
+      </tr>
+      <tr>
+        <td>rowspan</td>
+        <td>do tagu td, rozciągnięcie komórki w dół</td>
+      </tr>
+      <tr>
+        <td>rows</td>
+        <td>do tagu textarea, wysokość obiektu textarea w wierszach</td>
+      </tr>
+      <tr>
+        <td>size</td>
+        <td>do tagu input, szerokość pola tekstowego</td>
+      </tr>
+      <tr>
+        <td>src</td>
+        <td>do tagów które odnoszą się do plików (nie z kodem), adres URL lub ścieżka pliku nie z kodem</td>
+      </tr>
+      <tr>
+        <td>style</td>
+        <td>do wszystkich tagów, style CSS dla danego obiektu</td>
+      </tr>
+      <tr>
+        <td>target</td>
+        <td>do tagu a, jak otworzyć link (np. _blank aby otworzyć w nowej karcie)</td>
+      </tr>
+      <tr>
+        <td>title</td>
+        <td>do wszystkich tagów, tekst który się wyświetla w malutkim białym z czarną ramķą okienku po najechaniu</td>
+      </tr>
+      <tr>
+        <td>type</td>
+        <td>do tagów input i tagów które się do czegoś odnoszą, w input=typ inputa, w tagach które się do czegoś odnoszą=format pliku do którego się odnosi (np. audio/mp3)</td>
+      </tr>
+      <tr>
+        <td>value</td>
+        <td>do tagu input, w inpucie typu text=domyślna wartość, w inpucie typu checkbox lub radio=wartość pytania jezeli wybierzę się tą opcje</td>
+      </tr>
+      <tr>
+        <td>width</td>
+        <td>szerokość elementu (ustawia cechę CSS o takiej samej nazwie)</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
