@@ -1,0 +1,8 @@
+position:
+
+absolute = jest nad wszystkim, jest przesuwany względem strony lub kontenera który ma position:relative, nie zostawia pustego miejsca po swojej pozycji ze static;
+fixed = tak jak absolute tylko porusza się wraz ze scrollem;
+relative = jest przesuwany względem swojej pozycji ze static, zostawia puste miejsce po swojej pozycji ze static;
+static = domyślne;
+sticky = tak jak static tylko jak będzie określoną wysokość od góry (zwykle 0px) to jest jak fixed;
+inherit = odziedziczona wartość
